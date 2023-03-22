@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  background-color: #d8d8d8;
+  color: #e49393;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.active {
+  font-weight: 700;
+}
+
+img {
+  width: 400px;
+}
+
+a:hover {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #245953;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.navbar h1 {
+  color: #d8d8d8;
+  background-color: #245953;
+}
+
+.links {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  color: dark;
+  gap: 60px;
+  background-color: #245953;
+}
+
+.links li a {
+  text-decoration: none;
+  color: #e49393;
+  background-color: #245953;
+}
+
+.homeSection,
+.aboutSection,
+.products {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #408e91;
+}
+
+.homeProducts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutSection p {
+  align-items: start;
+}
+
+.products li {
+  list-style-type: decimal;
+}
