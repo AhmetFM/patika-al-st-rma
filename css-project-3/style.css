@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #e9ecef;
+}
+
+.nav-head {
+  color: green;
+  transition: color 0.3s ease;
+}
+
+.nav-head:hover {
+  color: lightgreen;
+}
+
+.navbar-a {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.navbar-a:hover {
+  color: grey;
+}
+
+.navbar-a:not(.active-link) {
+  color: grey;
+}
+
+.navbar-a:not(.active-link):hover {
+  color: white;
+}
